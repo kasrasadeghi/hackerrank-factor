@@ -1,0 +1,16 @@
+USING: io io.encodings.utf8 io.files sequences sorting math math.parser kernel system ;
+
+readln string>number
+readln string>number
++
+number>string
+print
+flush
+0 exit
+! utf8
+! file-lines
+! [ string>number ]
+! map
+! sum
+! number>string
+! print
